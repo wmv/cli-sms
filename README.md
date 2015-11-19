@@ -1,4 +1,4 @@
-Installation instructions:
+#Installation instructions:
 
 (Requires a valid Nexmo account with credit/trial)
 
@@ -20,11 +20,9 @@ Optionally, to set a default recipient number (for when you choose to ommit the 
 
 The instructions above assume you are using bash, but feel free to replace bash_profile with the equivalent for your shell of choice.
 
-Usage: sms [OPTIONS]
+#Usage: sms [OPTIONS]
 
-  This script sends an SMS given the recipient's number and text.
-
-Options:
+#Options:
   --number TEXT  This is the phone number that the SMS will be sent to.
   --text TEXT    This is the text that will form the body of the SMS.
   --verbose      Set this option to see extra details.
