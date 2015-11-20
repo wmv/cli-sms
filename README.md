@@ -13,7 +13,7 @@ The values for those are available in your Nexmo dashboard. To set, run:
 
  ```echo export NEXMO_API_KEY=YourNexmoApiSecretHere >> ~/.bash_profile``` (replace YourNexmoApiSecretHere with actual value)
 
-Optionally, to set a default recipient number (for when you choose to ommit the --number parameter; please note this is not required.), run this:
+- Optionally, to set a default recipient number (for when you choose to ommit the --number parameter; please note this is not required.), run this:
 
  ```echo export SMS_MESSAGE_DEFAULT_RECIPIENT=YourCellNumberOfChoice >> ~/.bash_profile``` (replace YourCellNumberOfChoice with actual value)
 
