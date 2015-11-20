@@ -1,7 +1,7 @@
 #Installation instructions:
 
 (Requires a valid Nexmo account with credit/trial)
-
+- Download zip & extract
 - From within the downloaded folder, run ```pip install --editable .``` (don't forget the period at the end.)
 - Make sure the environment variables for ```NEXMO_API_KEY``` and ```NEXMO_API_SECRET``` have been set.
 
