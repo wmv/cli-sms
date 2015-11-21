@@ -6,7 +6,7 @@ setup(
 	py_modules=['sms'],
 	install_requires=[
 		'Click',
-		'NexmoMessage'
+		'libpynexmo'
 	],
 	entry_points='''
 		[console_scripts]
