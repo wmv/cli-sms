@@ -5,7 +5,7 @@ import getpass
 import click
 from nexmomessage import NexmoMessage
 
-class SMS:
+class SMS(object):
 
 	CREDENTIALS = {
 		'nexmo': {
@@ -76,4 +76,4 @@ def send(number, text, verbose, v):
 	except Exception as e:
 		click.echo('SMS sending failed due to the following error: {}.')
 		if verbose or v:
-			click.echo('\nDebug info: \n{}'.format(str(e), result))
+			click.echo('\nDebug info: \n' + str(e) + result)
