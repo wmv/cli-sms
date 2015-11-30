@@ -1,3 +1,6 @@
+# cli-sms
+[![Code Health](https://landscape.io/github/wmv/cli-sms/master/landscape.svg?style=flat-square)](https://landscape.io/github/wmv/cli-sms/master)
+
 #Installation instructions:
 
 (Requires a valid Nexmo account with credit/trial)
